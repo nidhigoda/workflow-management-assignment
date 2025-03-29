@@ -1,0 +1,43 @@
+.create-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 12px;
+  min-width: 156px;
+  height: 32px;
+  background-color: #221f20;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  
+  /* Text styles */
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.create-button:hover {
+  background-color: #383434;
+}
+
+.create-button:active {
+  background-color: #0f0e0e;
+}
+
+.create-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .create-button {
+    min-width: 120px;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+}
+

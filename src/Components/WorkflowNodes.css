@@ -1,0 +1,153 @@
+.workflow-nodes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+  padding: 20px;
+  gap: 10px;
+}
+
+.start-node {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('https://dashboard.codeparrot.ai/api/image/Z-Zl-wggqYBhYcD1/group-13-3.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-text {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 77px;
+  position: relative;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100%;
+  background-image: url('https://dashboard.codeparrot.ai/api/image/Z-Zl-wggqYBhYcD1/group-13-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.add-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.add-circle {
+  width: 28px;
+  height: 28px;
+  border: 1.17px solid #4f4f4f;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-circle:hover {
+  background-color: #f0f0f0;
+}
+
+.plus-icon {
+  width: 14px;
+  height: 14px;
+  background-image: url('https://dashboard.codeparrot.ai/api/image/Z-Zl-wggqYBhYcD1/frame-10.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.end-node {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-circle-outer {
+  width: 80px;
+  height: 80px;
+  border: 6.15px solid #ee3425;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-circle-inner {
+  width: 57.69px;
+  height: 57.69px;
+  background-color: #ee3425;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-text {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+@media (max-width: 600px) {
+  .workflow-nodes {
+    padding: 10px;
+  }
+
+  .start-node, .end-node {
+    width: 60px;
+    height: 60px;
+  }
+
+  .start-circle, .end-circle-outer {
+    width: 60px;
+    height: 60px;
+  }
+
+  .end-circle-inner {
+    width: 43.69px;
+    height: 43.69px;
+  }
+
+  .start-text, .end-text {
+    font-size: 14px;
+  }
+
+  .add-circle {
+    width: 24px;
+    height: 24px;
+  }
+
+  .plus-icon {
+    width: 12px;
+    height: 12px;
+  }
+}

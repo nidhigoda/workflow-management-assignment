@@ -1,0 +1,155 @@
+.table-rows {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-row {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #fff;
+  border: 1px solid #f8f2e7;
+}
+.overflow-menu {
+  position: relative;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px; /* Adjust based on your design */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.dropdown-menu button {
+  background-color: white;
+  color: red;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+.row-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
+}
+
+.workflow-name {
+  width: 157px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+
+.workflow-id {
+  width: 39px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+
+.workflow-author {
+  width: 192px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+
+.workflow-desc {
+  width: 262px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+
+.row-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.pin-icon {
+  width: 14px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.action-btn {
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #221f20;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+  background-color: #f8f8f8;
+}
+
+.overflow-menu {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 1.25px;
+}
+
+.menu-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.frame-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .row-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .row-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+

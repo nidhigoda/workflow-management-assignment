@@ -1,0 +1,112 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-container {
+    width: 596px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .header-left {
+    flex: 1;
+  }
+  
+  .close-button {
+    width: 34px;
+    height: 34px;
+    padding: 9px;
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .close-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .close-icon {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .modal-content {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .modal-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.28px;
+    color: #333333;
+    margin-bottom: 8px;
+  }
+  
+  .modal-warning {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    color: #EE3425;
+  }
+  
+  .modal-footer {
+    background: #FFFFFF;
+    padding: 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-secondary {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    color: #4F4F4F;
+  }
+  
+  .btn-secondary:hover {
+    background: #F5F5F5;
+  }
+  
+  
