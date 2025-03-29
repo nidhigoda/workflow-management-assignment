@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';
-import Header from '../Components/Header';
-import SearchBar from '../Components/SearchBar';
-import CreateButton from '../Components/CreateButton';
-import TableHeader from '../Components/TableHeader';
-import TableRows from '../Components/TableRows';
-import Pagination from '../Components/Pagination';
+import Header from '../Components/Header/Header';
+import SearchBar from '../Components/SearchBar/SearchBar';
+import CreateButton from '../Components/CreateButton/CreateButton';
+import TableHeader from '../Components/TableHeader/TableHeader';
+import TableRows from '../Components/TableRow/TableRows';
+import Pagination from '../Components/Pagination/Pagination';
 import './WorkflowLayout.css';
 
 const WorkflowLayout = () => {

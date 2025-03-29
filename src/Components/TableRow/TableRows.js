@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './TableRows.css';
-import WorkflowTimeline from './workflowTimeline';
-import ExecuteWarningModal from './ExecuteWarningModal';
+import WorkflowTimeline from '../WorkflowTimeline/workflowTimeline';
+import ExecuteWarningModal from '../ExecuteWarningModal/ExecuteWarningModal';
 import { useNavigate } from 'react-router-dom';
 
 const TableRows = ({loading,noData,workflowData, searchData}) => {

@@ -1,7 +1,7 @@
 import React from 'react';
-import HeaderComponent from '../Components/HeaderComponent';
-import ControlButtons from '../Components/ControlButtons';
-import WorkflowNodes from '../Components/WorkflowNodes';
+import HeaderComponent from '../Components/HeaderComponent/HeaderComponent';
+import ControlButtons from '../Components/ControlButton/ControlButtons';
+import WorkflowNodes from '../Components/WorkflowNode/WorkflowNodes';
 import './CreateProcessLayout.css';
 import { useNavigate } from 'react-router-dom';
 const CreateProcesslayout = () => {
